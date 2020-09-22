@@ -1,0 +1,36 @@
+@import url('../styles/header_and_footer.css');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.blog-banner{
+    background: #354556;
+    padding: 30px 150px 30px 150px;
+}
+.blog-banner h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.lined {
+    text-decoration: underline;
+}
+.post-one{
+    
+    padding: 80px 150px 40px 150px;
+    text-align: center;
+}
+.post-one h4{
+    color: #35a78f;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.post-one p{
+    color: #7f8c8d;
+    margin-bottom: 24px;
+}
+.img-info{
+    font-style: italic;
+} 

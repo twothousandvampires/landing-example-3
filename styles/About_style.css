@@ -1,0 +1,68 @@
+@import url('../styles/header_and_footer.css');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.about-banner h1{
+    font-weight: 400;
+    font-size: 50px;
+    background: #354556;
+    padding: 37px 0 25px 150px;
+    color: #fff;
+}
+.team{
+    color: #7f8c8d;
+    background: #fff;
+    text-align: center;
+    padding: 60px 150px 40px 150px;
+}
+.team h1{
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.team p{
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.team img{
+    margin-bottom: 20px;
+}
+.about-blocks{
+    padding-top: 30px;
+    background: #ecf0f1;
+}
+.about-blocks-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block{
+    width: 290px;
+    height: 270px;
+    text-align: center;
+}
+
+.block:nth-child(2){
+    margin: 0 38px;
+}
+.block h4{
+    font-size: 28px;
+    font-weight: 200;
+    color: #41505f;
+    margin-bottom: 38px;
+}
+.block p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #889495;
+}
+
+@media (max-width:600px){
+    .about-blocks-wrapper{    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

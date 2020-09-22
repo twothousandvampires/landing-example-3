@@ -1,0 +1,67 @@
+@import url("../styles/header_and_footer.css");
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    max-height: 100vh;
+}
+.contact-banner{
+    background: #354556;
+    padding: 30px 150px 30px 150px;
+}
+.contact-banner h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.contact-main{
+
+    padding: 120px 150px 100px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    height: 400px;
+}
+.info{
+    color: #16a085;
+    width: 440px;
+    height: 100px;
+    
+}
+.contact-form{
+    width: 440px;
+    height: 100px;
+    
+ 
+}
+.info p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+.info h4{
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.contact-form form input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 35px;
+}
+.contact-form form button{
+    display: block;
+    padding: 10px 15px;
+    width: 150px;
+    color: #7f8c8d;
+}
+.contact-form textarea{
+    width: 100%;
+}

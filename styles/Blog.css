@@ -1,0 +1,54 @@
+@import url('../styles/header_and_footer.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.blog_elem address{
+    display: inline;
+}
+.blog_elem h4{
+    margin-bottom: 16px;
+    color: #60b5a2;
+    font-size: 35px;
+    font-weight: 400;
+}
+.blog_elem :nth-child(2){
+    margin-bottom: 30px;
+}
+.blog_elem :nth-child(4){    
+    margin-bottom: 40px;
+}
+.blog_elem{
+    color:#82c3b3;
+   text-align: center;
+   margin-bottom: 30px;
+   padding-top: 40px;
+}
+.blogs{
+    padding: 0 150px;
+    margin-bottom: 50px;
+}
+.blog_elem a{
+    text-decoration: none;
+    color: #82c3b3;
+    border: 1px #82c3b3 solid;
+    border-radius: 1%;
+    padding: 10px 15px;
+}
+.blog_elem a:hover{
+    background: #354556;
+}
+.blog-banner{
+    background: #354556;
+    padding: 30px 150px 30px 150px;
+}
+.blog-banner h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.lined {
+    text-decoration: underline;
+}

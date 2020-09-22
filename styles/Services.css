@@ -1,0 +1,60 @@
+@import url('../styles/header_and_footer.css');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.services-banner{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    background: url('../images/Image22.jpg') no-repeat;
+    background-size: 100%;    
+    padding: 46px 0 30px 150px;
+}
+.services-main{
+    color: #16a085;
+    text-align: center;
+    padding: 75px 150px 65px 150px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info ul{
+    list-style-image: url("../images/Bullet.jpg");
+}
+.services-main h2{
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.services-main p{
+    margin-bottom: 30px;
+}
+.info ul li{
+    text-align: start;
+    margin-bottom: 10px;
+}
+.services-box{
+    text-align: center;
+    width: 290px;
+    height: 240px;
+}
+.services-box h4{
+    font-size: 28px;
+    color: #41505f;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.services-box p{
+    color: #7f8c8d;
+    font-size: 14px;
+}
+.services-blocks{
+    padding-top: 40px;
+    background: #ecf0f1;
+}

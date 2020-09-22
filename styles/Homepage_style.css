@@ -1,0 +1,132 @@
+@import url('../styles/header_and_footer.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background: #16a085;
+    height: 50px;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+header ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 150px 0 150px ;
+}
+header ul a{
+    text-decoration: none;
+    color:#9bded1;
+    font-size: 14px;
+    font-weight: bold;
+}
+header ul a:hover{
+    color: white;
+}
+.wrapper{
+    width: 100%;
+}
+.banner{
+    text-align: center;
+    background: #354556;
+    padding: 170px 0 140px 0;
+}
+.banner h1{
+    font-weight: 400;
+    font-size: 90px;
+    margin-bottom: 28px;
+    color: #fff;
+}
+.banner p {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    color: #a5b6c7;
+}
+.banner a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid  #a5b6c7;
+    padding: 14px 40px;
+    border-radius: 4%;
+}
+.banner a:hover{
+    background:  #16a085; 
+}
+
+.box{
+    height: 270px;
+    width: 290px;
+    text-align: center;
+}
+.box a{
+    text-decoration: none;
+    color: #60b5a2;
+    border: 1px solid #60b5a2;
+    padding: 8px 12px 8px 12px;
+    font-size: 12px;
+}
+.box h4{
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 33px;
+}
+.box p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.boxes{
+    color: #60b5a2;
+    padding: 100px 0 10px 0;
+}
+.box a:hover{
+    background: #354556;
+}
+.posts{
+    background: #ecf0f1;
+    padding-top: 37px;
+}
+.post{
+   width: 290px;
+   height: 270px; 
+}
+
+.posts h2{
+    margin-left: 165px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.post h5{
+    margin-bottom: 20px;
+    color: #16a085;
+    font-size: 18px;
+    font-weight: 500;
+}
+.post p{
+    color: #16a085;
+    font-size: 14px;
+}
+.post img{
+    margin-bottom: 18px;
+}
+
+@media (max-width:600px){
+   
+}
